@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- theme里面的默认style-->
+        <!--<item name="CustomViewDefaultStyle">@style/ThroughStyle</item>-->
+        <item name="textOneAttr">最后的最后one</item>
+        <!--<item name="textTwoAttr">最后的最后two</item>-->
+        <item name="textThreeAttr">最后的最后three</item>
+    </style>
+
+    <!-- 当前Theme中的一个attribute -->
+    <style name="ThroughStyle">
+        <!-- 这样的话会空  但是并不会调用DefaultThroughStyle  这个默认的值-->
+        <!--<item name="textOneAttr">attr one from style from theme</item>-->
+        <!--<item name="textTwoAttr">attr two from style from theme</item>-->
+    </style>
+
+
+    <!-- 都没有属性时候的默认值 -->
+    <style name="DefaultThroughStyle">
+        <item name="textOneAttr">什么都没设置的情况下的默认属性one</item>
+        <!--<item name="textTwoAttr">attr two from style from theme</item>-->
+        <item name="textTwoAttr">什么都没设置的情况下的默认属性two</item>
+    </style>
+
+
+    <!-- popwidnow 显示消失动画 -->
+
+    <style name="popwindow_delete_btn_anim_style">
+        <item name="android:windowEnterAnimation">@anim/delete_btn_show</item>
+        <!-- 指定显示的动画xml -->
+        <item name="android:windowExitAnimation">@anim/delete_btn_hide</item>
+        <!-- 指定消失的动画xml -->
+
+    </style>
+
+</resources>

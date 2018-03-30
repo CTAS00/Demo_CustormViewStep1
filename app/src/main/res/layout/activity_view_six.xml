@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <mycustormview.one.step6_attribute.CustormViewAttributeView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <!-- 当里面不设置自定义属性的时候，AppTheme中的style 会生效。若前一个数据不为0或者说Apptheme中没有为其指定属性的时候
+    ,这个属性才会生效-->
+    <!--app:textOneAttr = "xml one"-->
+    <!--app:textTwoAttr = "xml two"-->
+    <!--style="@style/ThroughStyle"-->
+    <!--app:textOneAttr = "我是第一个"-->
+    <!--app:textTwoAttr = "200"-->
+    <!--style="@style/ThroughStyle"-->
+</LinearLayout>

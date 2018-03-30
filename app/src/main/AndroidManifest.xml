@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ct.demo_custormviewstep1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="mycustormview.one.step1.CustormView_OneActivity"/>
+        <activity android:name="mycustormview.one.step2.CustormView_TwoActivity"/>
+        <activity android:name="mycustormview.one.step3_circle.CustormViewStep3Activity"/>
+        <activity android:name="mycustormview.one.step4_volume.CustormView_FourActivity"/>
+        <activity android:name="mycustormview.one.step5_viewgroup1.CustormView_FiveActivity"/>
+        <activity android:name="mycustormview.one.step6_attribute.CustormView_SixActivity"/>
+        <activity android:name="mycustormview.one.step7_qqlistview.CustormView_SevenActivity"/>
+        <activity android:name="mycustormview.one.step8_MyViewGroup.CustormView_EightActivity"/>
+        <activity android:name="textfunction.FunActivity"/>
+        <activity android:name="image.ImageActivity"/>
+        <activity android:name="rxjava.rxAndroid"/>
+    </application>/
+
+</manifest>

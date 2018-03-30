@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <mycustormview.one.step8_MyViewGroup.MyLinearlayout
+        android:id="@+id/MyLinearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <mycustormview.one.step8_MyViewGroup.MyButton
+            android:id="@+id/MyButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:text="哈哈"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            />
+    </mycustormview.one.step8_MyViewGroup.MyLinearlayout>
+</LinearLayout>

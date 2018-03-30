@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- custormview_one的自定义属性 -->
+    <attr name="titleOneText" format="string" />
+    <attr name="titleOneTextColor" format="color" />
+    <attr name="titleOneTextSize" format="dimension" />
+
+    <declare-styleable name="CustomTitleView">
+        <attr name="titleOneText" />
+        <attr name="titleOneTextColor" />
+        <attr name="titleOneTextSize" />
+    </declare-styleable>
+
+
+
+
+    <!-- custormview_two的自定义属性 -->
+    <attr name="titleText" format="string" />
+    <attr name="titleTextSize" format="dimension" />
+    <attr name="titleTextColor" format="color" />
+    <attr name="image" format="reference" />
+    <attr name="imageScaleType">
+        <enum name="fillXY" value="0" />
+        <enum name="center" value="1" />
+    </attr>
+
+    <declare-styleable name="CustomImageView">
+        <attr name="titleText" />
+        <attr name="titleTextSize" />
+        <attr name="titleTextColor" />
+        <attr name="image" />
+        <attr name="imageScaleType" />
+    </declare-styleable>
+
+
+
+    <!-- custormview_three 圆环的自定义属性 -->
+        <attr name="firstColor" format="color" />
+        <attr name="secondColor" format="color" />
+        <attr name="circleWidth" format="dimension" />
+        <attr name="speed" format="integer" />
+
+        <declare-styleable name="CustomProgressBar">
+            <attr name="firstColor" />
+            <attr name="secondColor" />
+            <attr name="circleWidth" />
+            <attr name="speed" />
+        </declare-styleable>
+
+    <!-- custormview_four 音量的自定义属性 -->
+    <attr name="volum_firstColor" format="color" />
+    <attr name="volum_secondColor" format="color" />
+    <attr name="volum_circleWidth" format="dimension" />
+    <attr name="dotCount" format="integer" />
+    <attr name="splitSize" format="integer" />
+    <attr name="bg" format="reference"></attr>
+
+    <declare-styleable name="CustomVolumControlBar">
+        <attr name="volum_firstColor" />
+        <attr name="volum_secondColor" />
+        <attr name="volum_circleWidth" />
+        <attr name="dotCount" />
+        <attr name="splitSize" />
+        <attr name="bg" />
+    </declare-styleable>
+
+
+
+    <!-- custormview_five 理解自定义控件的属性-->
+
+     <attr name = "textOneAttr" format="string"/>
+     <attr name = "textTwoAttr" format="string"/>
+     <attr name = "textThreeAttr" format="string"/>
+     <attr name="CustomViewDefaultStyle" format="reference" />
+
+</resources>

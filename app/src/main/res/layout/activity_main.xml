@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <Button
+                android:onClick="custormview_step1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="step1 自定义控件" />
+
+
+            <Button
+                android:onClick="custormview_step2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="step2 自定义控件 图片" />
+
+            <Button
+                android:onClick="custormview_step3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="step3 弧度圆形" />
+
+            <Button
+                android:onClick="custormview_step4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="step4 音量控制" />
+
+            <Button
+                android:onClick="custormview_step5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="step5 viewgroup base" />
+
+            <Button
+                android:onClick="custormview_step6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="step6 attribute base" />
+
+            <Button
+                android:onClick="custormview_step7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="qq listview" />
+
+            <Button
+                android:onClick="custormview_step8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dispatch touchevent" />
+
+
+            <Button
+                android:onClick="custormview_step9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="跳转到测试界面"
+                />
+
+            <Button
+                android:onClick="custormview_step10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="跳转到Horonizscrollview"
+                />
+
+            <Button
+                android:onClick="custormview_step11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="跳转到Viewpager + photoView"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="custormview_step12"
+                android:text="跳转到具体的功能里面去"
+
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
